@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./sass/modalTablet.scss" />
+    <link rel="stylesheet" href="./sass/modalDesktop.scss" />
     <script type="module" src="./scripts/index.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -14,10 +16,12 @@
     />
   </head>
   <body class="container">
-    <div class="modal">
-      <h4>INFO</h4>
-    </div>
-    
+    <button class="event1"></button>
+
     <include src="./partials/header.html"></include>
+
+    <div class="backdrop"></div>
+    <include src="./partials/modal.html"></include>
+
   </body>
 </html>
