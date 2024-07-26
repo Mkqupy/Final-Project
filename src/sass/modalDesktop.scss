@@ -23,9 +23,7 @@
     
       margin: auto;
       position: absolute;
-      top: 70%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      
     
       display: none;
     }
@@ -163,7 +161,8 @@
         display: inline;
         z-index: 4;
     }
-    }
     .buyBtnDiv{
       justify-content: left;
     }
+    }
+    
