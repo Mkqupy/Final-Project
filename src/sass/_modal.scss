@@ -20,11 +20,11 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
   margin: 20 auto;
-  transform: translate(50%, 0);
+  transform: translate(-50%, 0);
   display: none;
 
   opacity: 0;
