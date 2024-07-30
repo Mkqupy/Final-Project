@@ -1,3 +1,5 @@
+import './modal.js';
+
 // const URL_POSTS = 'http://localhost:3000/posts';
 
 // class PostsAPI {
