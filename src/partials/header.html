@@ -1,25 +1,23 @@
 <header>
-
-  <img src="./images/logo.png" alt="logo" class="logo">
-  <div class="logo-shadow"></div>
+  <div class="logo"></div>
 
   <h1>
     FIND BEST EVENTS
     <br />
     AROUND THE WORLD
   </h1>
-
-  <!-- Поля для пошуку країни  -->
-  <div class="headerCountriesCont">
-    <label class="countriesSearch" for="countriesSearch">
-      <input name="countriesSearch" type="text" placeholder="Search country" id="countriesSearchInp">
-      <button id="searchButton"></button>
-    </label>
-  
-    <div id="selectorContainer">
-      <select name="countriesSelector" id="countriesSelector">
-        <option value="" selected disabled>Choose country:</option>
-      </select>
-    </div>
+  <div class="filters">
+    <input id="search" type="text" placeholder="Start searching" />
+    <select id="countrySelect" aria-placeholder="Choose country">
+      <option value="">All</option>
+      <option value="US">United States</option>
+      <option value="UK">United Kingdom</option>
+      <option value="DE">Germany</option>
+      <option value="FR">France</option>
+      <option value="ES">Spain</option>
+      <option value="IT">Italy</option>
+      <option value="NL">Netherlands</option>
+      <option value="PL">Poland</option>
+    </select>
   </div>
 </header>
