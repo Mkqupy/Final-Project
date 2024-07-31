@@ -1,5 +1,5 @@
 const ROOT_URL = 'https://app.ticketmaster.com/discovery/v2';
-const API_KEY = 'XoWdlrAgDbi7pRSRibKrECGRIIYtPAXc';
+const API_KEY = '3okesG1S5GlrQnAjXIVroo6x7ncC9crb';
 
 class EventsService {
   constructor() {
