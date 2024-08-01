@@ -34,6 +34,11 @@ async function onCardHandler(id) {
   modalContainer.innerHTML = html;
 }
 
+// let mftaButton = document.querySelector('.mftaButton');
+
+// mftaButton.addEventListener( 'click', () => {
+// });
+
 async function onClickHandler(e) {
   if (e.target.closest('.card')) {
     const card = e.target.closest('.card');

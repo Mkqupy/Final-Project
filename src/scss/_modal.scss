@@ -1,8 +1,4 @@
 #modalContainer {
-    display: flex;
-    z-index: 5;
-    opacity: 1;
-    animation: fadeInFromNone 1s ease-out;
   .modal {
     position: absolute;
     top: 0;
@@ -11,7 +7,7 @@
     bottom: 0;
     z-index: 1000;
 
-    margin-top: 200px;
+    
 
     .backdrop {
       position: absolute;
@@ -38,6 +34,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-top: 200px;
+
+    animation: fadeIn 1s;
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    
 
     @media (max-width: 768px) {
     }
@@ -172,5 +178,21 @@
         text-align: center;
       }
     }
+  }
+  .mftaButton {
+    width: 255px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(76, 0, 254, 1);
+    opacity: 0px;
+    color: rgba(76, 0, 254, 1);
+    background-color: rgba(255, 242, 253, 1);
+    margin-top: 45px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
   }
 }
